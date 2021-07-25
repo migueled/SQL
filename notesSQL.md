@@ -18,5 +18,8 @@
 * good practices uppercase and lowercase
 ```
 SELECT first_name FROM person;
-INSERT INTO contacts( first_name, last_name ) VALUES( ´Fritz´, ´Onion´ )
+INSERT INTO contacts( first_name, last_name ) VALUES( ´Fritz´, ´Onion´ );
+UPDATE contacts SET last_name = ´Ahern´ WHERE id = 1;
+DELETE FROM contacts WHERE id = 2;
 ```
+* THE NAME OF THE TABLE SHOULD BE ABOUT WHAT EACH ROW IS ABOUT
