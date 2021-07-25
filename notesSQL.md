@@ -23,3 +23,5 @@ UPDATE contacts SET last_name = ´Ahern´ WHERE id = 1;
 DELETE FROM contacts WHERE id = 2;
 ```
 * THE NAME OF THE TABLE SHOULD BE ABOUT WHAT EACH ROW IS ABOUT
+## Querying data with the SELECT statement
+* Using star or the asterisk in a SELECT statement is considered a very bad practice.
