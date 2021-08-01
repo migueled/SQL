@@ -25,3 +25,15 @@ DELETE FROM contacts WHERE id = 2;
 * THE NAME OF THE TABLE SHOULD BE ABOUT WHAT EACH ROW IS ABOUT
 ## Querying data with the SELECT statement
 * Using star or the asterisk in a SELECT statement is considered a very bad practice.
+
+## Filtering Results with the WHERE clause
+* Boolean Operators
+
+| Operator| Example |
+|---|---|
+| = | Equals |
+| <> | Not equal to |
+| > | Greater than |
+| < | Less than |
+| >= | Greater or equal |
+| <= | Less than or equal |
