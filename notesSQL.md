@@ -52,3 +52,17 @@ DELETE FROM contacts WHERE id = 2;
 * SET function to roll-up or slice
 * GROUP BY to create subsets
 * HAVING to restrict GROUP BY
+
+## Matching different data tables with joins
+
+| Join| Description |
+|---|---|
+| CROSS JOIN | simplest join, all rows from both tables, no where clause, least useful, inefficient, cartesian product, cross keyword implied, bad practice |
+| INNER JOIN | Most typial, emphasizes relational nature of database, matches column in first table to second, primary key foreign key is most common, doesn´t deal with null values |
+| OUTER JOIN | Works even when no match, null columns if no match in second table, full outer join returns all joiner rows, null when no match in either table |
+| LEFT OUTER JOIN | another null-related join, all rows from the left side will be returned  |
+| RIGHT OUTER JOIN | Opposite of left outer join, all rows from thee right side will be returned, null for non-matching left side table |
+| FULL OUTER JOIN | does not exist in mysql, it can be simulated |
+| SELF JOIN | You can join a table on itself, odd but sometimes useful, no especial sintax, same table on left and right side of join, useful hen tables contains hierarchical data |
+
+* joins make the relational model come to life by associting tables together
