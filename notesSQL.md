@@ -25,7 +25,7 @@ DELETE FROM contacts WHERE id = 2;
 * THE NAME OF THE TABLE SHOULD BE ABOUT WHAT EACH ROW IS ABOUT
 ## Querying data with the SELECT statement
 * Using star or the asterisk in a SELECT statement is considered a very bad practice.
-
+* DISTINCT contrains results to unique values
 ## Filtering Results with the WHERE clause
 * Boolean Operators
 
@@ -47,3 +47,8 @@ DELETE FROM contacts WHERE id = 2;
 | MIN | does not include null values |
 | AVG | does not include null values |
 | SUM | does not incclude null values, only numeric column |
+
+* ORDER BY to sort results sets
+* SET function to roll-up or slice
+* GROUP BY to create subsets
+* HAVING to restrict GROUP BY
