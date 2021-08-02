@@ -37,3 +37,13 @@ DELETE FROM contacts WHERE id = 2;
 | < | Less than |
 | >= | Greater or equal |
 | <= | Less than or equal |
+
+## Shaping results with ORDER BY and GROUP BY
+
+| Function| Description |
+|---|---|
+| COUNT | includes null values if * is used |
+| MAX | does not include null values |
+| MIN | does not include null values |
+| AVG | does not include null values |
+| SUM | does not incclude null values, only numeric column |
