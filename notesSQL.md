@@ -66,3 +66,10 @@ DELETE FROM contacts WHERE id = 2;
 | SELF JOIN | You can join a table on itself, odd but sometimes useful, no especial sintax, same table on left and right side of join, useful hen tables contains hierarchical data |
 
 * joins make the relational model come to life by associting tables together
+
+# Adding, chaging and removing data
+## Bulk insert
+insert allows only one table and column list, insert multiple rows with one statement, either multiple values list or, select statement following table name
+
+## summary
+Insert, Update and delete modifying data in your database tables.
