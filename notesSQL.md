@@ -67,9 +67,28 @@ DELETE FROM contacts WHERE id = 2;
 
 * joins make the relational model come to life by associting tables together
 
-# Adding, chaging and removing data
+# Adding, changing and removing data
 ## Bulk insert
 insert allows only one table and column list, insert multiple rows with one statement, either multiple values list or, select statement following table name
 
 ## summary
 Insert, Update and delete modifying data in your database tables.
+
+# Creating database tables
+## introduction
+DDL - Data definition language: SQL subset for creating databases amd tables, most tools have a visual method, good to have an idea of what they are doing
+
+## Create database
+oddly not part of the SQL Standard
+
+## Primary key
+Can be a multiple columns(compound key)
+
+## Constraint
+way to add keys in one grouping, primary or foreign keys
+
+## Alter table
+used to change an existing table, add remove column, change column data type, change column constrains, must comport with current data
+
+## DROP TABLE
+error if tables is a foreign key to another table
