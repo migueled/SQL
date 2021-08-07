@@ -92,3 +92,6 @@ used to change an existing table, add remove column, change column data type, ch
 
 ## DROP TABLE
 error if tables is a foreign key to another table
+
+## summary
+Understanding DDL is a good foundation for working with SQL, even if you use it rarely, CREATE TABLE id the command to configure your columns and relations
